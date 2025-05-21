@@ -5,6 +5,10 @@ extends Node
 @export var profession: String
 @export var health: int
 
+class Equipment:
+	var armor: int = 10
+	var cha
+
 func die():
 	health = 0
 	print(profession + " died.")
